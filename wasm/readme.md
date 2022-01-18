@@ -9,9 +9,9 @@ fn.print_add (i64.a i64.b) -> i64
 
 fn.i64_add (i64.a i64.b) => math.add (a b) #
 ```
-函数以 `fn.` 开始为声明，接收一个参数（组） 
--> 后两个参数 
-=> 后一个参数
+函数以 `fn.` 开始为声明，接收一个参数（组）  
+-> 后两个参数  
+=> 后一个参数  
 考虑到左大括号的位置问题，使用 # 来表示结束
 `#` == `()`
 
@@ -22,8 +22,8 @@ fn.i64_add (i64.a i64.b) => math.add (a b) #
 
 -- wrong: any.k
 ```
-变量声明以【类型 dot 名字】进行 
-`any` 代表类型自动推导，所以不能单独使用
+变量声明以【类型 dot 名字】进行  
+`any` 代表类型自动推导，所以不能单独使用  
 `fix` 相当于 immutable
 
 # string
@@ -96,8 +96,8 @@ when (a b)
 #
 
 ```
-`for` == `index` + `when` 
-`when` == `fn` + `if` + `goto` 
+`for` == `index` + `when`   
+`when` == `fn` + `if` + `goto`   
 没有 `else` 
 
 # struct
