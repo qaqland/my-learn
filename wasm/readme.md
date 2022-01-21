@@ -26,6 +26,12 @@ fn.i64_add (i64.a i64.b) => math.add (a b) #
 `any` 代表类型自动推导，所以不能单独使用  
 `fix` 相当于 immutable
 
+```
+$艳红 = "#ed5a65"
+$苋菜红 = "#a61b29"
+```
+支持以 `$` 开头的 Unicode 常量
+
 # string
 
 ```
